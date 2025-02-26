@@ -65,6 +65,10 @@ The [Tableau Dashboard](https://public.tableau.com/shared/PWTMNY9SW?:display_cou
 
 ![Tableau Home](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/tableau_home.png)
 
+![Tableau Business Problem](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/tableau_02.png)
+
+![Tableau Metric Evaluation](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/tableau_03.png)
+
 ### Streamlit
 
 The [Streamlit Dashboard](http://194.59.165.17:1010) allows user to input custom data for predictions. It provides insights into data preprocessing, feature engineering, oversampling, and the prediction process. This dashboard provides two ways to input features, single and batch input.
