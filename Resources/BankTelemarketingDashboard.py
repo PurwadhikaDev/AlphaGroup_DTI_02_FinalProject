@@ -48,11 +48,10 @@ def get_feat_names():
         col_to_remove = {
             "previous",
             "emp.var.rate",
-            "loan_yes",
-            "day_of_week_tue",
-            "job_management",
-            "nr.employed",
             "Last_Contact_Within_30_Days",
+            "nr.employed",
+            "cons.price.idx",
+            "job_management",
         }
         features_name = [col for col in features_name if col not in col_to_remove]
 
