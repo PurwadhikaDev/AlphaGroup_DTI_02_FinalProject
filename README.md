@@ -3,8 +3,6 @@
 DTIDS-0206 Alpha Team Final Project  
 Created By: Davis Sebastian, Sean Kristian Anderson
 
----
-
 ## Overview
 
 ![Portugal GPD Growth](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/portugal_gdp.png)
@@ -31,7 +29,7 @@ Dive towards the data, and import required libraries to support the machine lear
 
 ### 3. Exploratory Data Analysis (EDA)
 
-Data exploration using visualization graphs to discover insights, patterns, and intterelation. Which could provide strong reasoning for any method or approches done for the next sections.
+Data exploration using visualization graphs to discover insights, patterns, and interrelation. Which could provide strong reasoning for any method or approches done for the next sections.
 
 ### 4. Data Preprocessing
 
@@ -43,11 +41,11 @@ Handle engineering against the features included in the dataset which includes e
 
 ### 6. Modeling
 
-Exploration towards differnce machine learning model, data approches, and hyperparameter to obtain the best fit results. Analysis on each benchmark methods and its utilization on the business approaches.
+Exploration towards difference machine learning model, data approaches, and hyperparameter to obtain the best fit results. Analysis on each benchmark methods and its utilization on the business approaches.
 
 ### 7. Conclusion and Recommendation
 
-Conlusion or summary in business perspective and for the machine learning model. Recommendation in actionable actions that can be done by stakeholders to increase the business profit or advanced machine learning development in the future to achieve better overall accuracy.
+Conclusion or summary in business perspective and for the machine learning model. Recommendation in actionable actions that can be done by stakeholders to increase the business profit or advanced machine learning development in the future to achieve better overall accuracy.
 
 ### 8. Model Export
 
@@ -63,25 +61,34 @@ Dashboards are included in this project to assist the understanding of the machi
 
 ### Tableau
 
-The <a href="https://google.com">Tableau Dashboard</a> includes sections on the Business Problem, Explaratory Data Analysis (EDA), Model Performance, Conclusion, and Recommendation.
+The [Tableau Dashboard](https://public.tableau.com/shared/PWTMNY9SW?:display_count=n&:origin=viz_share_link) includes sections on the Business Problem, Explanatory Data Analysis (EDA), Model Performance, Conclusion, and Recommendation. Attached image below is the screenshot of the provided tableau dashboard. Simply click on the tab inside the blue section to navigates through the dashboard.
+
+![Tableau Home](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/tableau_home.png)
 
 ### Streamlit
 
-The <a href="http://194.59.165.17:1010">Streamlit Dashboard</a> allows user to input custom data for predictions. It provides insights into data preprocessing, feature engineering, oversampling, and the prediction process.
+The [Streamlit Dashboard](http://194.59.165.17:1010) allows user to input custom data for predictions. It provides insights into data preprocessing, feature engineering, oversampling, and the prediction process. This dashboard provides two ways to input features, single and batch input.
 
-Follow this step below to create a prediction with the provided dashboard:
+To make a single prediction, follow these steps below:
 
-![Streamlit Dashboard Example](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/streamlit_screenshot.png)
+![Streamlit Single Input](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/streamlit_single_input.png)
 
 1. Open the dashboard link using any browser.
-2. Input the user features in the purple section, ensure that every field has inputted properly.
-3. On the bottom of the user input features field, click on the "Prediction" button to create a prediction.
-4. Prediction result towards the custom data is provided in the right side.
-5. Yellow section provides the summary of the prediction, Blue section provides the features importance using SHAP method.
+2. Under the yellow section, make sure to select the "Single Input" tab.
+3. Input the features in the provided form under the purple section, ensure that every field has been inputted properly. Click the "Predict Single Outcome" button in the bottom of the form.
+4. The result of the prediction located on the right side under the blue section. Which includes the summary of the prediction and the feature importance using SHAP.
+
+To make a batch prediction, follow these steps below:
+
+![Streamlit Batch Input](https://raw.githubusercontent.com/seanka/Python-BankTelemarketing-MachineLearning/master/Resources/Images/streamlit_batch_input.png)
+
+1. Open the dashboard link using any browser.
+2. Under the yellow section, make sure to select the "Batch Input" tab.
+3. Prepare a CSV file containing records to be predicted, follow this [example file](./Dataset/bank_marketing_test_data.csv) as the guide for the CSV format.
+4. Drag and drop or click the "Browse files" button to import the prepared CSV. Click the "Predict Batch Outcome" button.
+5. The result of the prediction located on the right side under the blue section. Which includes the summary of the prediction and the feature importance using SHAP.
 
 ## Project Directory
-
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl leo congue id sit class porta magnis ullamcorper ullamcorper.
 
 - **Dataset/**
   - **bank-additional-full.csv** : raw dataset.
